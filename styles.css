@@ -2,8 +2,14 @@
 Using mostly https://github.com/makeuseofcode/CAPTCHA-Validator/blob/main/styles.css to learn how to code in css*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+form {
+    margin: 20px auto;
+    width: 500px;
+}
+
+
 body {
-    background-color: white;
+    background-color: white;  /* change the color to white */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -18,7 +24,7 @@ body {
 }
 
 #captchaHeading {
-    color: black;
+    color: black; 
 }
 
 #captcha {
